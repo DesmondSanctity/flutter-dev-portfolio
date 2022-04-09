@@ -7,6 +7,7 @@ export const CarouselContainer = styled.ul`
   padding: 0rem;
   list-style:none;
   display: flex;
+  border-radius: 10px;
   justify-content: space-between; 
   /* overflow-x: hidden; */
 
@@ -43,6 +44,8 @@ export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;
   max-width: 196px;
+  margin-left: 20px;
+  margin-top: 5px;
 
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
